@@ -1,6 +1,6 @@
-#gRPCサンプルコード
+# gRPCサンプルコード
 
-##実行方法
+## 実行方法
 イメージの作成
 ```
 docker image build -t client ./client
@@ -15,7 +15,7 @@ docker-compose up -d
 http://localhost:50050
 ```
 
-##ライセンス
+## ライセンス
 このコードは下記コードを参考に作成しています。
 MITライセンスに保護されているため、規約を確認してください。
 https://github.com/vvatanabe/go-grpc-basics
