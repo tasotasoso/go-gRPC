@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package contract;
+
+message ContractRequest {
+    string contract = 1;
+    string lastname = 2;
+    string firstname = 3;
+    string telnumber = 4;
+}
+
+message ContractResponse {
+    string result = 1;
+}
+
+service ContractService {
+    rpc Contract (ContractRequest)
+        returns (ContractResponse);
+}
+
